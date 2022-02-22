@@ -1,0 +1,115 @@
+/* Global Variables */
+:root {
+    --customCrimson: rgb(184,15,10);
+    --customSpace: rgb(29,41,81);
+}
+
+/* Overall */
+body {
+    background-color: var(--customSpace) !important;
+}
+
+body > .container {
+    width: 100%;
+    max-width: 100%;
+    padding: 0px 0px;
+}
+
+.navbar,
+.footer-bar {
+    background-color: var(--customCrimson);
+}
+
+/* SVG Icon */
+#icon {
+    height: 50px;
+    width: 50px;
+}
+
+/* Navigation */
+#navigation {
+    position: fixed;
+    width: 100%;
+}
+
+.navbar-brand {
+    color: gold !important;
+}
+
+/* Animated Navigation */
+.nav-link {
+    margin: 2px;
+    padding: 8px;
+    transition: background-color .9s !important;
+    border-radius: 5px;
+}
+
+.nav-link:hover {
+    padding: 8px;
+    transition: background-color .9s ease-in-out !important;
+    border-radius: 5px;
+    background-color: goldenrod !important;
+}
+
+nav .nav-link,
+footer .nav-item .nav-link,
+footer .text-center,
+.footer-nav-link {   
+    color: rgb(255,255,255) !important;
+    text-decoration: none;
+}
+
+.footer-nav-link {
+    margin: 10px;
+}
+
+/* Footer */
+footer {
+    margin: 0px !important;    
+}
+
+/* Menu Contents */
+#menu-container {
+    padding-top: 70px !important;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+    background-color: rgb(255,255,255);
+}
+
+.menu-content h2 {
+    margin: 20px 0px 10px 20px;
+    color: cornflowerblue; 
+}
+
+.menu-content h3 {
+    margin: 20px 0px 10px 20px;
+    color: teal;
+}
+
+.menu-content p {
+    margin: 20px 0px 10px 30px;
+    color: crimson;
+}
+
+/* SVG Separators */
+.separator {
+    height: 20px;
+}
+
+.electric {
+    border: 5px solid red;
+}
+
+/* COMMENT PAGE - Form */
+.form-label {
+    color: teal !important;
+}
+
+/* Form Button */
+.comment-btn {
+    display: flex;
+    justify-content: end;
+}
+
+.btn {
+    border: 2px solid crimson !important;
+}
